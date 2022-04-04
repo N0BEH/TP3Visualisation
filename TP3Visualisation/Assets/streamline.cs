@@ -19,13 +19,7 @@ public class streamline : MonoBehaviour
 
     void Start()
     {
-
-        _valeurs = new List<Vector3>();
-        if (step <= 0)
-        {
-            step = 1;
-        }
-
+        //Cube holographique
         cube = gameObject.transform.Find("volume");
 
         float val = 0;
@@ -40,9 +34,70 @@ public class streamline : MonoBehaviour
         
         cube.position = new Vector3((taille / 2) + val, (taille / 2) + val, (taille / 2) + val);
         cube.localScale = new Vector3(taille, taille, taille);
+        //Fin du cube
         
         
+        //startCapsules();
+        createOneStreamLine(new Vector3(0, 0, 0));
+    }
+
+    void createOneStreamLine(Vector3 coord)
+    {
+
+        Vector3 cd = coord;
+        Vector3 calculatedPoint = new Vector3(vectorX(cd), vectorY(cd), vectorZ(cd));
         
+        for (int i = 0; i < 10; i++)
+        {
+            
+            
+            GameObject arrow = GameObject.CreatePrimitive(PrimitiveType.Capsule);
+            var mr = arrow.GetComponentInChildren<MeshRenderer>();
+
+            arrow.transform.position = cd;
+                    
+            arrow.transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
+        
+            arrow.transform.rotation = Quaternion.FromToRotation(cd, calculatedPoint);
+            
+            cd = calculatedPoint;
+
+        }
+        
+       
+        
+        //Calcul min max
+        /*
+        float tmp = 0;
+        tmp += calculatedPoint.x;
+        tmp +=calculatedPoint.y;
+        tmp +=calculatedPoint.z;
+
+        if (tmp > max)
+        {
+            max = tmp;
+        }
+
+        if (tmp < min)
+        {
+            min = tmp;
+        }*/
+        //
+        
+        //float value = (tmp-min)/(max - min);
+
+        
+
+        //mr.material.color = Color.Lerp(Color.green, Color.red, value);
+        
+        
+    }
+
+    void startCapsules()
+    {
+
+
+
         for (float y = 0; y < taille; y += step)
         {
             for (float z = 0; z < taille; z += step)
@@ -56,6 +111,8 @@ public class streamline : MonoBehaviour
 
 
                     _valeurs.Add(calculatedPoint);
+                    
+                    
 
                 }
             }
@@ -67,7 +124,7 @@ public class streamline : MonoBehaviour
             float tmp = 0;
             tmp += _valeurs[i].x;
             tmp += _valeurs[i].y;
-            tmp += _valeurs[i].y;
+            tmp += _valeurs[i].z;
 
             if (tmp > max)
             {
