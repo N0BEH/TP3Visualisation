@@ -142,7 +142,10 @@
         134,
         135,
         136,
-        137
+        137,
+        138,
+        139,
+        140
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 0
@@ -1416,6 +1419,17 @@
       "DebugActionIndex": 115
     },
     {
+      "Annotation": "CopyFiles D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/UnityCrashHandler64.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/UnityCrashHandler64.pdb"
+      ],
+      "Outputs": [
+        "D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/UnityCrashHandler64.pdb"
+      ],
+      "DebugActionIndex": 116
+    },
+    {
       "Annotation": "CopyFiles D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/UnityPlayer.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
@@ -1424,7 +1438,29 @@
       "Outputs": [
         "D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/UnityPlayer.dll"
       ],
-      "DebugActionIndex": 116
+      "DebugActionIndex": 117
+    },
+    {
+      "Annotation": "CopyFiles D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/UnityPlayer_Win64_player_mono_x64.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/UnityPlayer_Win64_player_mono_x64.pdb"
+      ],
+      "Outputs": [
+        "D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/UnityPlayer_Win64_player_mono_x64.pdb"
+      ],
+      "DebugActionIndex": 118
+    },
+    {
+      "Annotation": "CopyFiles D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/WindowsPlayer_player_Master_mono_x64.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/WindowsPlayer_player_Master_mono_x64.pdb"
+      ],
+      "Outputs": [
+        "D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/WindowsPlayer_player_Master_mono_x64.pdb"
+      ],
+      "DebugActionIndex": 119
     },
     {
       "Annotation": "CopyFiles D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
@@ -1435,7 +1471,7 @@
       "Outputs": [
         "D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
       ],
-      "DebugActionIndex": 117
+      "DebugActionIndex": 120
     },
     {
       "Annotation": "CopyFiles D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
@@ -1446,7 +1482,7 @@
       "Outputs": [
         "D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
       ],
-      "DebugActionIndex": 118
+      "DebugActionIndex": 121
     },
     {
       "Annotation": "CopyFiles D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/browscap.ini",
@@ -1457,7 +1493,7 @@
       "Outputs": [
         "D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/browscap.ini"
       ],
-      "DebugActionIndex": 119
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "CopyFiles D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/config",
@@ -1468,7 +1504,7 @@
       "Outputs": [
         "D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/config"
       ],
-      "DebugActionIndex": 120
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "CopyFiles D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
@@ -1479,7 +1515,7 @@
       "Outputs": [
         "D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 121
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "CopyFiles D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/2.0/machine.config",
@@ -1490,7 +1526,7 @@
       "Outputs": [
         "D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/2.0/machine.config"
       ],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 125
     },
     {
       "Annotation": "CopyFiles D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/2.0/settings.map",
@@ -1501,7 +1537,7 @@
       "Outputs": [
         "D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/2.0/settings.map"
       ],
-      "DebugActionIndex": 123
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "CopyFiles D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/2.0/web.config",
@@ -1512,7 +1548,7 @@
       "Outputs": [
         "D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/2.0/web.config"
       ],
-      "DebugActionIndex": 124
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "CopyFiles D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
@@ -1523,7 +1559,7 @@
       "Outputs": [
         "D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 125
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "CopyFiles D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
@@ -1534,7 +1570,7 @@
       "Outputs": [
         "D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "CopyFiles D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/4.0/machine.config",
@@ -1545,7 +1581,7 @@
       "Outputs": [
         "D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/4.0/machine.config"
       ],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "CopyFiles D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/4.0/settings.map",
@@ -1556,7 +1592,7 @@
       "Outputs": [
         "D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/4.0/settings.map"
       ],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 131
     },
     {
       "Annotation": "CopyFiles D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/4.0/web.config",
@@ -1567,7 +1603,7 @@
       "Outputs": [
         "D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/4.0/web.config"
       ],
-      "DebugActionIndex": 129
+      "DebugActionIndex": 132
     },
     {
       "Annotation": "CopyFiles D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
@@ -1578,7 +1614,7 @@
       "Outputs": [
         "D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 130
+      "DebugActionIndex": 133
     },
     {
       "Annotation": "CopyFiles D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
@@ -1589,7 +1625,7 @@
       "Outputs": [
         "D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 131
+      "DebugActionIndex": 134
     },
     {
       "Annotation": "CopyFiles D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/4.5/machine.config",
@@ -1600,7 +1636,7 @@
       "Outputs": [
         "D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/4.5/machine.config"
       ],
-      "DebugActionIndex": 132
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "CopyFiles D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/4.5/settings.map",
@@ -1611,7 +1647,7 @@
       "Outputs": [
         "D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/4.5/settings.map"
       ],
-      "DebugActionIndex": 133
+      "DebugActionIndex": 136
     },
     {
       "Annotation": "CopyFiles D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/4.5/web.config",
@@ -1622,7 +1658,7 @@
       "Outputs": [
         "D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/4.5/web.config"
       ],
-      "DebugActionIndex": 134
+      "DebugActionIndex": 137
     },
     {
       "Annotation": "CopyFiles D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
@@ -1633,7 +1669,7 @@
       "Outputs": [
         "D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 135
+      "DebugActionIndex": 138
     },
     {
       "Annotation": "CopyFiles D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/mconfig/config.xml",
@@ -1644,7 +1680,7 @@
       "Outputs": [
         "D:/Fichiers/Documents/Mes codes/TP3Visualisation/Executable/MonoBleedingEdge/etc/mono/mconfig/config.xml"
       ],
-      "DebugActionIndex": 136
+      "DebugActionIndex": 139
     },
     {
       "Annotation": "Player",
@@ -1786,10 +1822,13 @@
         133,
         134,
         135,
-        136
+        136,
+        137,
+        138,
+        139
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 137
+      "DebugActionIndex": 140
     }
   ],
   "FileSignatures": [
@@ -1998,7 +2037,7 @@
   "EmitDataForBeeWhy": 0,
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 137
+          "Player": 140
         }
 ,  "DefaultNodes": [
     0
